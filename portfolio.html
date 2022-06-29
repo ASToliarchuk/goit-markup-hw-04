@@ -30,8 +30,18 @@
             </nav>
 
             <ul class="auth-nav">
-                <li> <a href="mailto:info@devstudio.com" class="link-mail">info@devstudio.com</a></li>
-                <li> <a href="tel:+380961111111" class="link-tel">+38 096 111 11 11</a></li>
+                <li>
+                    <a href="mailto:info@devstudio.com" class="link-mail">
+                        <svg class="icon-mail">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg> info@devstudio.com</a>
+                </li>
+                <li>
+                    <a href="tel:+380961111111" class="link-tel">
+                        <svg class="icon-tel">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>+38 096 111 11 11</a>
+                </li>
             </ul>
         </div>
         
@@ -44,7 +54,7 @@
 
             <div class="container">
                 <ul class="button-list">
-                    <li> <button type="button" class="primary-button">Все</button></li>
+                    <li> <button type="button" class="button">Все</button></li>
                     <li> <button type="button" class="button">Веб-сайты</button></li>
                     <li> <button type="button" class="button">Приложения</button></li>
                     <li> <button type="button" class="button">Дизайн</button></li>
@@ -122,18 +132,60 @@
 
     <!--Подвал-->
     <footer>
-        <div class="container">
-            <a href="/" class="logo-footer">
-                <span class="img-logo-footer">Web</span>Studio
-            </a>
-            <address class="address">
-                <p class="text-address">г. Киев, пр-т Леси Украинки, 26</p>
-                <a href="mailto:info@example.com" class="link">info@example.com</a> <br>
-                <a href="tel:+380991111111" class="link-tel">+38 099 111 11 11</a>
-            </address>
+        <div class="container footer-blok">
+            <div class="address-blok">
+                <a href="/" class="logo-footer">
+                    <span class="img-logo-footer">Web</span>Studio
+                </a>
+                <address class="address">
+                    <p class="text-address">г. Киев, пр-т Леси Украинки, 26</p>
+                    <a href="mailto:info@example.com" class="link">info@example.com</a> <br>
+                    <a href="tel:+380991111111" class="link-tel">+38 099 111 11 11</a>
+                </address>
+            </div>
+    
+            <div class="icon-blok">
+                <h3 class="title-icon">Присоединяйтесь</h3>
+                <ul class="socials">
+                    <li>
+                        <a class="link-social" href="#">
+                            <svg class="footer-icon" width="20" height="20">
+                                <use href="./images/symbol2.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link-social" href="#">
+                            <svg class="footer-icon" width="20" height="20">
+                                <use href="./images/symbol2.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link-social" href="#">
+                            <svg class="footer-icon" width="20" height="20">
+                                <use href="./images/symbol2.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link-social" href="#">
+                            <svg class="footer-icon" width="20" height="20">
+                                <use href="./images/symbol2.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    
+    
+    
+    
         </div>
-        
+    
+    
     </footer>
+
 
     
 </body>
