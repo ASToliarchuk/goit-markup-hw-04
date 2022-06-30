@@ -227,7 +227,7 @@ nav{
     margin-right: 10px;
     width: 16px;
     height: 12px;
-    /* fill: var(--primary-text-color); */
+    fill: currentColor;
     cursor: pointer;
 }
 
@@ -235,6 +235,7 @@ nav{
     margin-right: 10px;
     width: 10px;
     height: 16px;
+    fill: currentColor;
     cursor: pointer;
     
 }
@@ -524,7 +525,7 @@ nav{
         width: 170px;
         height: 92px;
         padding: 16px 32px;
-        
+
         cursor: pointer;
  }
 
@@ -618,9 +619,9 @@ footer{
     display: flex;
 }
 
-.address-blok{
+/* .address-blok{
     margin-right: 70px;
-}
+} */
 
 .logo-footer{
         font-family: 'Raleway';
