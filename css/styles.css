@@ -513,13 +513,16 @@ nav{
  }
 
  .card{
-    
+ 
     width: 170px;
     height: 92px;
     margin-right: 30px;
  }
 
   .client-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #afb1b8;
         border-radius: 4px;
         width: 170px;
@@ -527,6 +530,14 @@ nav{
         padding: 16px 32px;
 
         cursor: pointer;
+ }
+
+ .client-icons:hover {
+     border-color: #2196F3;
+ }
+
+ .client-icons:hover .client-icon {
+     fill: #2196F3;
  }
 
 
